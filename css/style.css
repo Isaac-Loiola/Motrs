@@ -8,3 +8,25 @@
 .image-nav{
     width: 180px;
 }
+
+.initial{
+    background-position: contain;
+    height: 700px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.description-initial{
+    align-self: center;
+    /* display: flex; */
+}
+
+.title-main{
+    
+}
+
+.logo{
+    font-family: 'cal sans';
+    color: rgb(248, 145, 0);
+}
