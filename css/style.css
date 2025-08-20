@@ -1,93 +1,10 @@
 /* Importando o reset */
-@import url(reset.css);
+/* @import url(reset.css); */
 
 /* Importando fontes do Projeto */
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    font-family: 'jost';
-    background-color: #FFF;
-    margin: 0;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    min-width: 1vh;
-    padding: 0;
-}
-
-.header{
-    width: 100%;
-    background-color: #FFF;
-    box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.1);
-    display: flex;
-    padding: 20px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.logo-header{
-    width: 150px;
-}
-
-.menu{
-
-    display: flex;
-    gap: 30px;
-}
-
-.menu a, .log-in a{
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Cal Sans';
-    color: #141414;
-
-    transition: 0.3s ease;
-}
-.log-in a{
-    padding: 10px 15px;
-    color: #FFF;
-    background-color: #FF9F1C;
-    border-radius: 6px;
-    box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.1);
-}
-.menu a:hover{
-    color: #FF9F1C;
-}
-.log-in a:hover{
-    background-color: #141414;
-    color: #FF9F1C;
-}
-
-/*  intial miain */
-.main{
-    width: 100%;
-    background-color: #FFF;
-    padding: 20px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.initial{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.title-main{
-    width: 500px;
-    font-size: 30px;
-    font-family: 'Cal Sans';
-    color: #141414;
-    margin-bottom: 10px;
-}
-
-.description-main{
-    color: #383838;
-    width: 500px;
-    font-size: 16px;
+.image-nav{
+    width: 180px;
 }
