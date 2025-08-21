@@ -41,7 +41,7 @@
         </header>
 
         <main class="main-index">
-            <div class="initial container-fluid ">
+            <div class="initial container-fluid mb-5">
                 <div class="description-initial container d-flex align-items-center">
                     <div class="col">
                         <h1 class="title-main tw-bold">
@@ -67,39 +67,90 @@
                     </p>
                 </div>
 
-                <picture>
-                    <img src="/image/logo.svg" alt="" class="col-6">
-                </picture>
             </div>
-            <div class="presentation-product">
+            <div class="presentation-product container mt-5">
                 <h2 id="products">Produtos</h2>
 
-                <div class="products-container">
-                    <section class="banner">
-                        <img src="/image/photos-products/initial-banner.png" alt="" class="image-banner">
-
-                        <h2 class="name-product">Lorem, ipsum dolor.</h2>
-                        <!-- <a href="#" class="btn-more">Visualizar</a> -->
-                    </section>
-                    <section>
-                        <img src="/image/photos-products/initial-1.png" alt="" class="image-banner">
-
-                        <h2 class="name-product">Lorem, ipsum dolor.</h2>
-                        <!-- <a href="#" class="btn-more">Visualizar</a> -->
-                    </section>
-                    <section>
-                        <img src="/image/photos-products/initial-2.png" alt="" class="image-banner">
-
-                        <h2 class="name-product">Lorem, ipsum dolor.</h2>
-                        <!-- <a href="#" class="btn-more">Visualizar</a> -->
-                    </section>
-                    <section>
-                        <img src="/image/photos-products/initial3.png" alt="" class="image-banner">
-
-                        <h2 class="name-product">Lorem, ipsum dolor.</h2>
-                        <!-- <a href="#" class="btn-more">Visualizar</a> -->
-                    </section>
+                <div class="carousel slide container-auto" id="carouselAuto" data-bs-ride="carousel">
+                    <div class="carousel-inner mb-5">
+                        <div class="carousel-item active">
+                            <img src="/image/photos-products/initial-1.png" alt="" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="carouselAuto">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="carouselAuto">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Proximo</span>
+                    </button>
                 </div>
+
+                <div class="products-container container p-0 d-flex gap-5  justify-content-center flex-wrap">
+                    <div class="card col-3">
+                        <img src="/image/photos-products/initial3.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">CB 300F</h5>
+                            <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit animi veritatis amet!
+                            </p>
+                            <a href="" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                    <div class="card col-3">
+                            <img src="/image/photos-products/initial-2.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">CB 500</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officiis tempora iure dolore ipsum?
+                                </p>
+                                <a href="" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                    </div>
+                    <div class="card col-3">
+                        <img src="/image/photos-products/initial-4.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">XJ-6</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+                            <a href="" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                    <div class="card col-3">
+                        <img src="/image/photos-products/initial-5.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">NVE 650N</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+                            <a href="" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                    <div class="card col-3">
+                        <img src="/image/photos-products/initial-6.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">NVE 650N</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+                            <a href="" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                    <div class="card col-3">
+                        <img src="/image/photos-products/initial-1.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">NVE 650N</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+                            <a href="" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
             </div>
         </main>
         <footer class="footer">
